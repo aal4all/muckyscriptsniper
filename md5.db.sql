@@ -1,0 +1,9 @@
+CREATE TABLE md5sums (
+	id INTEGER PRIMARY KEY,
+  md5sums CHAR(32) UNIQUE
+  );
+
+CREATE TABLE registered_apps (
+  id INTEGER PRIMARY KEY,
+  app VARCHAR(64) UNIQUE
+  );
